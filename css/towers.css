@@ -1,0 +1,72 @@
+html, body, header, nav, h1, a,
+ul, li, strong, main, button, i,
+section, img, div, h2, p, form,
+fieldset, label, input, textarea,
+span, article, footer, time, small {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-family: Futura;
+  color: inherit;
+  text-align: center;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  box-sizing: inherit;
+  background: transparent;
+}
+
+ul {
+  list-style: none;
+}
+
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/*----------------*/
+
+.hanoi{
+  display: flex;
+  justify-content: center;
+}
+.tower{
+  width: 180px;
+  background: lightgray;
+  height: 300px;
+  margin: 10px;
+  display: inherit;
+  flex-direction: column-reverse;
+}
+
+.disc{
+  background: blue;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+  border: 1px solid white;
+  border-radius: 10px;
+  align-content: center;
+}
+
+.d1{
+  /*background-color: pink;*/
+  width: 33.33%;
+}
+
+.d2{
+  width: 66.66%;
+}
+.d3{
+  width: 100%;
+}
+
+.thisTower {
+  background-color: darkgray ;
+}
